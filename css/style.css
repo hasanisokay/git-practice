@@ -1,0 +1,215 @@
+/* universal selector to nullify the default margin and padding. And to set the font for every item in the page. */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner background styles */
+.banner{
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-color: #867c7c9d;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 808px;
+    width: 100%;
+    text-align: right;
+}
+/* banner title styles */
+.banner-heading{
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    padding: 205px 200px 10px 700px;
+   
+}
+/* A small paragraph in the banner */
+.banner-description{
+    font-size: 16px;
+    color: #444343;
+    padding: 0 200px 20px 750px;
+}
+/* contact us button at the bannaer */
+.button-contact-us{
+    padding: 20px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    margin: 0 200px 20px 700px ;
+    border: none;
+    border-radius: 8px;
+}
+/* My failures of previous year starts here. putting it to a box, and the whole box is flexed with the image. */
+.my-failure{
+    display: flex;
+    padding:50px 200px;
+
+}
+.failure-of-previous{
+    padding: 65px 70px 100px 50px;
+
+} 
+/* targetting the title */
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+/* small paragraph after the title */
+.failure-description{
+    color: #444343;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+/* list of the failure */
+.failure-list{
+    list-style: none;
+}
+/* assigning a tick in the list */
+.failure-list li:before{
+    content: "✓";
+    color: #16D887;
+    padding: 5px;
+}
+/* Big title My Plans */
+.my-plan{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* my plan section start */
+.plan-container{
+    display: flex;
+    justify-content: center;
+}
+/* targetting titles in my plan, like Web developments, Javascript */
+.plan-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* targetting I want to start or end portion */
+.plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* targetting each plan box texts and pngs  */
+.planbox{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+/* "My Favourite Programming Languages" text style */
+.programming-language>h3{
+    text-align: center;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* targetting whole Programming Language section and padding this to fit in the screen */
+.programming-language{
+    padding: 200px;
+}
+/* title of the language */
+.language-name{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+}
+/* description of the programming languages */
+.language-description{
+    color: #1d1010;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* putting styles to the anchor text"see more" in the programming language section */
+a{
+    text-decoration: none;
+    color: #1d1010;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* Programming language whole section here to flex the inner boxes  */
+.language-box{
+    display: flex;
+    gap: 40px;
+    margin: 40px 0 30px 0;    
+}
+/* each programming box given the same class and targetting them to have same design */
+.language-sub-box{
+    padding: 20px 20px 70px 4px;
+    border: none;
+    border-radius: 10px;
+    background-color:#cabfbb33;
+    box-shadow: 5px 5px #444343;
+}
+/* positive mindset styles. gradient added here */
+.positive-mindset{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    background-blend-mode:normal;
+    height: 200px;
+    width: 950px;
+    padding: 60px 0 0 60px;
+    border-radius: 5px;
+    margin: 70px 0 180px 340px;
+}
+/* last two buttons styles. Call now and Subscribe button both are in this class */
+.last-buttons{
+    border: none;
+    color: #F15B22;
+    padding: 10px;
+    margin-top: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* always be positive title styles */
+.always-positive{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+/* footer styles start */
+.footer{
+    background: #151414;
+    display: flex;
+    color: #F8F8F8;
+}
+/* targetting footers left box */
+.future{
+    text-align: left;
+    padding:130px 300px 130px 230px;
+}
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.future-description{
+    padding-bottom: 10px;
+}
+/* targetting social icons in footer */
+.contact-icons{ 
+    display: flex;
+    gap: 15px;
+}
+/* targetting right side of the footer. Subscribe section */
+.subscribe{
+    padding: 135px 370px 0 0;
+}
+/* Subscribe styles */
+.subscribe >h6{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+/* input email styles*/
+#email{
+    height: 50px;
+    width: 325px;
+    border-radius: 10px;
+    background-color: #151414;
+    border: 2px solid white;
+}
